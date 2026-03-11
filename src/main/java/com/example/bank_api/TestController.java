@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping("/")  // Маппинг на корневой путь
+    @GetMapping("/")
     public String home() {
         return "Hello, Bank API is running!";
     }

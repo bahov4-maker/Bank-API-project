@@ -2,7 +2,7 @@ package com.example.bank_api.model;
 
 public class Account {
 
-    private String id;      // исправлено с Long на String
+    private String id;      
     private String owner;
     private double balance;
 
